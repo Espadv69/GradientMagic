@@ -1,12 +1,49 @@
-# React + Vite
+# CSS Gradient Generator 🌈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- ![Project Screenshot](/public/screenshot.png) -->
 
-Currently, two official plugins are available:
+A simple but powerful tool to create beautiful CSS gradients with live preview.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- [▶ Live Demo](#) -->
 
-## Expanding the ESLint configuration
+## Features
+- 🎨 Pick colors with an easy-to-use interface
+- 🔄 Real-time gradient preview
+- 📋 Copy CSS code with one click
+- 📱 Works on all devices
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+- React
+- Vite
+- JavaScript
+- CSS
+
+## How to Use
+1. Clone the project:
+```bash
+  git clone https://github.com/Espadv69/GradientMagic.git
+```
+
+2. Move to directory:
+```bash
+  cd GradientMagic
+```
+
+3. Install dependencies:
+```bash
+  npm install
+```
+
+4. Run the app:
+```bash
+   npm run dev
+```
+
+## How It Works
+1. Select your colors using the color pickers
+2. Adjust the gradient direction with the slider
+3. Copy the generated CSS code
+4. Paste into your project!
+
+## License
+MIT © [Espadv69] 2025
