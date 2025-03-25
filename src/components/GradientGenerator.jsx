@@ -7,6 +7,7 @@ const GradientGenerator = () => {
   const [firstColor, setFirstColor] = useState('#ff0000')
   const [secondColor, setSecondColor] = useState('#0000ff')
   const [angle, setAngle] = useState(90)
+  const [copyMessage, setCopyMessage] = useState('')
 
   const gradientStyle = {
     background: `linear-gradient(${angle}deg, ${firstColor}, ${secondColor})`,
@@ -19,7 +20,10 @@ const GradientGenerator = () => {
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(gradientCss)
-    alert(gradientCss + '\ncopied to clipboard')
+    setCopyMessage('Gradient Copied!')
+    setTimeout(() => {
+      setCopyMessage('')
+    }, 1500)
   }
 
   return (
@@ -58,7 +62,7 @@ const GradientGenerator = () => {
       <footer>
         <div style={gradientStyle}></div>
         <p>Css Code:</p>
-        <code>{gradientCss}</code>
+        <code>{copyMessage ? copyMessage : gradientCss}</code>
         <button onClick={copyToClipboard}>Copy to Clipboard</button>
       </footer>
     </section>
