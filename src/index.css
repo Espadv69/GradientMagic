@@ -1,7 +1,16 @@
+:root {
+  color-scheme: light dark;
+  --font: 'Fira Code Variable', monospace;
+}
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
 }
