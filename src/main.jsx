@@ -1,5 +1,5 @@
 // Supports weights 300-700
-import '@fontsource-variable/fira-code';
+import '@fontsource-variable/fira-code'
 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
