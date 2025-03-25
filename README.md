@@ -1,10 +1,11 @@
 # CSS Gradient Generator 🌈
 
-<!-- ![Project Screenshot](/public/screenshot.png) -->
+![Project Screenshot](/public/gradientMagic.png)
 
 A simple but powerful tool to create beautiful CSS gradients with live preview.
 
-<!-- [▶ Live Demo](#) -->
+## Live Demo
+[▶ Live Demo](#)
 
 ## Features
 
