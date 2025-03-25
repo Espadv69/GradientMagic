@@ -15,6 +15,13 @@ const GradientGenerator = () => {
     marginTop: '.8rem',
   }
 
+  const gradientCss = `background: linear-gradient(${angle}deg, ${firstColor}, ${secondColor});`
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(gradientCss)
+    alert(gradientCss + ' copied to clipboard')
+  }
+
   return (
     <section className="gradient-generator">
       <h1>Gradient Generator</h1>
@@ -51,9 +58,8 @@ const GradientGenerator = () => {
       <footer>
         <div style={gradientStyle}></div>
         <p>Css Code:</p>
-        <code>
-          background: linear-gradient({angle}deg, {firstColor}, {secondColor});
-        </code>
+        <code>{gradientCss}</code>
+        <button onClick={copyToClipboard}>Copy to Clipboard</button>
       </footer>
     </section>
   )
