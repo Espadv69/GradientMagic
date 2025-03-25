@@ -5,7 +5,7 @@
 A simple but powerful tool to create beautiful CSS gradients with live preview.
 
 ## Live Demo
-[▶ Live Demo](#)
+[▶ Live Demo](https://gradientmagic.netlify.app/)
 
 ## Features
 
