@@ -19,7 +19,7 @@ const GradientGenerator = () => {
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(gradientCss)
-    alert(gradientCss + ' copied to clipboard')
+    alert(gradientCss + '\ncopied to clipboard')
   }
 
   return (
