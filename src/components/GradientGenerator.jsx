@@ -46,6 +46,13 @@ const GradientGenerator = () => {
           />
         </div>
       </header>
+      <footer>
+        <div style={gradientStyle}></div>
+        <p>Css Code:</p>
+        <code>
+          background: linear-gradient({angle}deg, {firstColor}, {secondColor});
+        </code>
+      </footer>
     </section>
   )
 }
