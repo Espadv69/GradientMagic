@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/fira-code": "^5.2.5",
     "react": "^19.0.0",
     "react-color": "^2.19.3",
     "react-dom": "^19.0.0"
