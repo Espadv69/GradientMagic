@@ -14,6 +14,29 @@ const GradientGenerator = () => {
     height: '200px',
     marginTop: '.8rem',
   }
+
+  return (
+    <section className="gradient-generator">
+      <h1>Gradient Generator</h1>
+      <header>
+        <div className="first-color">
+          <h4>Pick First Color:</h4>
+          <SketchPicker
+            color={firstColor}
+            onChange={(c) => setFirstColor(c.hex)}
+          />
+        </div>
+
+        <div className="second-color">
+          <h4>Pick Second Color:</h4>
+          <SketchPicker
+            color={secondColor}
+            onChange={(c) => setSecondColor(c.hex)}
+          />
+        </div>
+      </header>
+    </section>
+  )
 }
 
 export default GradientGenerator
