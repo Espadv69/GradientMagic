@@ -34,6 +34,17 @@ const GradientGenerator = () => {
             onChange={(c) => setSecondColor(c.hex)}
           />
         </div>
+
+        <div className="angle">
+          <h4>Adjust Angle: {angle}°</h4>
+          <input
+            type="range"
+            min="0"
+            max="360"
+            value={angle}
+            onChange={(e) => setAngle(e.target.value)}
+          />
+        </div>
       </header>
     </section>
   )
